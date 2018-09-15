@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        Gallery
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div id="loaderDiv" class="spinner row">
+        <div class="column ">
+            <div id="loader ">
+                <div class="lds-default ">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div id="imageGrid">
+            <div class="row ">
+                <div id="col1" class="column ">
+
+                </div>
+                <div id="col2" class="column ">
+
+                </div>
+            </div>
+        </div>
+        <div id="showDiv" style="display: none">
+            <div class="row">
+                <div class="column mrg4p" id="clickedImg">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="column" id="prevImg">
+
+                </div>
+                <div>
+                    <button onclick="goToFullScreen()" class="cancel">X</button>
+                </div>
+                <div id="nextImg" class="column pull-right" >
+
+                </div>
+            </div>
+        </div>
+  
+</body>
+
+</html>
